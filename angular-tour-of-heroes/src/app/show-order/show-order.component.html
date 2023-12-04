@@ -1,0 +1,19 @@
+<!-- fruit.component.html -->
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{ fruit.name }}</td>
+        <td>{{ fruit.type }}</td>
+        <td>{{ fruit.price | currency: 'USD' }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
